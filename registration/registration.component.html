@@ -1,0 +1,63 @@
+
+
+<form action="/action_page.php">
+  <div class="container">
+ <form>
+   <div id="name">
+   <h2 class="name">Name</h2>
+    <input class="firstname" type="text" placeholder="Name" name="first_name"><br> 
+
+</div>
+<div id="surname">
+    <h2 class="name">Surname</h2>
+     <input class="lastname" type="text" placeholder="Surname" name="last_name"><br> 
+ 
+ </div>
+ <div id="birth">
+    <h2 class="name">Date of Birth</h2>
+     <input class="birth" type="text" placeholder="DD-MM-YYYY" name="birth"><br> 
+ 
+ </div>
+ <div id="gender">
+    <h2 class="name">Gender</h2>
+     <input class="gender" type="text" name="gender"><br> 
+ </div>
+
+ <h2 class="name">Student Email</h2>
+    <input class="email" type="email"  name="email" id="email" required><br> 
+
+   <h2 class="name">Institution</h2>
+    <select class="option" name="institution">
+        <option disabled="disabled" selected="selected"></option>
+    </select>
+
+    <h2 class="name">Student Number</h2>
+    <input class="num" type="num" placeholder="##########" name="student_number" id="num" required><br> 
+
+    <h2 class="name">Mobile Number</h2>
+    <input class="mobile" type="mobile" placeholder="##########"  name="mobile" id="mobile" required><br> 
+
+    <h2 class="name">Recent Proof of Registration</h2>
+    <div class="buttonIn">
+        <input type="text" id="enter">
+        <button class="btn"><i class="fa fa-folder"></i> Browse</button>
+    </div>
+
+    <h2 class="name">Status</h2> 
+    <select class="option" name="status">
+        <option disabled="disabled" selected="selected">Team / Individual</option>
+        <option>Team</option>
+        <option>Individual</option>
+    </select>
+
+    <h2 class="name">How Did You Hear About Us?</h2>
+    <select class="option" name="about us">
+        <option disabled="disabled" selected="selected"></option>
+    </select>
+
+  
+</div>
+</form>
+</form>
+
+<router-outlet></router-outlet>

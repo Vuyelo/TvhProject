@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(139, 0, 0, 0.938);
+    
+  }
+  
+  .container {
+    width: 800px;
+    margin: auto;
+    padding: 16px;
+    background-color: white;
+    background-image: url("tutlogo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+  }
+  form{
+      padding: 16px;
+  }
+  #name{
+      width: 100%;
+      height: 100px;
+  }
+  .name{
+      margin-top: 2px;
+      width: 250px;
+      color: black;
+      font-size: 18px;
+      font-weight: 700;
+
+  }
+
+.firstname{
+    position: relative;
+    left: 150px;
+    top: -30px;
+    line-height: 40px;
+    width: 400px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    margin: 5px 0 3px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.lastname{
+    position: relative;
+    left: 150px;
+    top: -30px;
+    line-height: 40px;
+    width: 400px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+      
+}
+
+.birth{
+    position: relative;
+    left: 150px;
+    top: -30px;
+    line-height: 40px;
+    width: 400px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.gender{
+    position: relative;
+    left: 150px;
+    top: -30px;
+    line-height: 40px;
+    width: 400px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+ 
+  .email{
+    position: relative;
+    line-height: 40px;
+    border-radius: 6px;
+    width: 700px;
+    padding: 0 22px;
+    font-size: 16px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  .option{
+    position: relative;
+    border-radius: 6px;
+    width: 740px;
+    padding: 10px 22px;
+    font-size: 16px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    outline: none;
+    overflow: hidden;
+  }
+
+  .num{
+    position: relative;
+    line-height: 40px;
+    border-radius: 6px;
+    width: 700px;
+    padding: 0 22px;
+    font-size: 16px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  .mobile{
+    position: relative;
+    line-height: 40px;
+    border-radius: 6px;
+    width: 700px;
+    padding: 0 22px;
+    font-size: 16px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  .option option{
+      font-size: 18px;
+      background-color: goldenrod;
+  }
+
+   
+  .option:hover {
+    opacity: 1;
+  }
+
+  .buttonIn {
+    width: 300px;
+    position: relative;
+}
+  
+input {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    position: relative;
+    line-height: 40px;
+    border-radius: 6px;
+    width: 700px;
+    padding: 0 22px;
+    font-size: 16px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+button {
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    right: -420px;
+    width: 80px;
+    z-index: 2;
+    border: none;
+    top: 9px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: royalblue;
+    transform: translateX(2px);
+}
